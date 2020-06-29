@@ -1,0 +1,21 @@
+.place__website {
+    margin-bottom: 48px;
+}
+
+@media (min-width : 1024px) {
+    .place__website {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width : 1024px) {
+    .place__website {
+        margin-top: 0;
+    }
+}
+
+@media (max-width : 768px) {
+    .place__website {
+        display: none;
+    }
+}

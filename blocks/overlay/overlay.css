@@ -1,0 +1,47 @@
+.overlay {
+    
+    opacity: 0.3;
+position: absolute;
+background-color: black;
+
+}
+
+.cover:hover .overlay {
+    opacity: 0.8;
+    transition: opacity 1s ease-in-out;
+}
+
+@media (min-width : 1280px) {
+    .overlay {
+    
+        min-width: 1184px;
+        min-height: 740px;
+}
+}
+
+
+
+@media (min-width : 1024px) and (max-width : 1280px) {
+    .overlay {
+    
+        min-width: 100%;
+        min-height: 640px;
+}
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+    .overlay {
+    
+        min-width: 100%;
+        min-height: 480px;
+}
+}
+
+@media (min-width : 320px) and (max-width : 768px) {
+    .overlay {
+        
+        min-width: 100%;
+        min-height: 200px;
+        
+    }
+}

@@ -1,0 +1,9 @@
+@import url(./_type/comments__image_type_beatrice.css);
+@import url(./_type/comments__image_type_jane.css);
+@import url(./_type/comments__image_type_stephen.css);
+
+.comments__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

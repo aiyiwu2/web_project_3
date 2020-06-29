@@ -1,0 +1,9 @@
+.place__url-heading_type_new-hampshire {
+    margin-top: 106px;
+}
+
+@media (max-width : 1024px) {
+    .place__url-heading_type_new-hampshire {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,20 @@
+
+
+.place__url {
+    font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+transition: opacity 1s ease-out;
+}
+
+.place__url:hover {
+    opacity: 0.3;
+  }
+
+  @media (max-width : 768px) {
+    .place__url {
+        display: none;
+    }
+}

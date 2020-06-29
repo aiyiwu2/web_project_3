@@ -1,0 +1,25 @@
+
+
+@media (min-width : 768px) {
+
+    .footer__links {
+        min-width: 211px;
+    display: flex;
+    justify-content: space-between;
+        
+    
+}
+
+}
+
+@media (max-width : 768px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        min-height: 136px;
+        justify-content: space-between;
+    }
+}
+
+
+

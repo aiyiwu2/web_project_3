@@ -1,0 +1,7 @@
+@import url(./_place/video__item-bg_place_iowa.css);
+@import url(./_place/video__item-bg_place_wyoming.css);
+
+.video__item-bg {
+    width: 583px;
+height: 323px;
+}
