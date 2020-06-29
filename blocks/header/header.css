@@ -16,7 +16,7 @@
 
 @media (min-width : 1280px) {
     .header {
-    min-width: calc(984 / 1280 * 100%);
+    min-width: 984px;
     margin-top: 34px;
     
 }
@@ -25,22 +25,22 @@
 
 @media (min-width : 1024px) and (max-width : 1280px) {
     .header {
-    min-width: calc(928 / 1024 * 100%);
+    min-width: 984px;
     margin-top: 34px;
 }
 }
 
 @media (min-width : 768px) and (max-width : 1024px) {
     .header {
-    min-width: calc(720 / 768 * 100%);
+    min-width: 720px;
     margin-top: 34px;
 }
 }
 
 @media (min-width : 320px) and (max-width : 768px) {
     .header {
-    min-width: calc(288 / 320 * 100%);
-    max-height: calc(36 / 320 * 100%);
+    min-width: 288px;
+    max-height: 36px;
     margin-top: 20px;
 }
 }
