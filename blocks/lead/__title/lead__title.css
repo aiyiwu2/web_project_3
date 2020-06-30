@@ -41,7 +41,7 @@
 @media (min-width : 320px) and (max-width : 768px) {
     .lead__title {
         
-        max-width: 288px;
+        max-width: calc(288 / 320 * 100%);
         font-size: 40px;
         line-height: 44px;
     }

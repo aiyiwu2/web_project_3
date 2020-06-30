@@ -35,17 +35,16 @@
 
 @media (min-width : 320px) and (max-width : 768px) {
     .place__group:first-of-type {
-        max-width: 100%;
-        
+        min-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
     }
     
     
     .place__group:last-of-type {
-        max-width: 288px;
+        max-width: calc(288 / 320 * 100%);
         margin-top: 32px;
         margin-left: auto;
         margin-right: auto;

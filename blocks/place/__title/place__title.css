@@ -24,6 +24,7 @@
         font-size: 32px;
         line-height: 35px;
         margin: 0 auto 32px auto;
-        max-width: calc(288 / 320 * 100%);
+        min-width: calc(288 / 320 * 100%);
+        text-align: left;
     }
 }

@@ -9,6 +9,7 @@
     
     margin-left: auto;
     margin-right: auto;
+    min-width: 288px;
     
 }
 
@@ -32,14 +33,15 @@
 
 @media (min-width : 768px) and (max-width : 1024px) {
     .header {
-    min-width: 720px;
+    min-width: calc(720 / 768 * 100%);
     margin-top: 34px;
 }
 }
 
 @media (min-width : 320px) and (max-width : 768px) {
     .header {
-    min-width: 288px;
+    min-width: calc(288 / 320 * 100%);
+    max-width: 720px;
     max-height: 36px;
     margin-top: 20px;
 }

@@ -37,8 +37,7 @@ max-height: 480px;
 @media (min-width : 320px) and (max-width : 768px) {
     .lead__image {
         margin-top: 40px;
-        max-width: 320px;
-        max-height: 200px;
+        max-width: 100%;
     
     }
 }
