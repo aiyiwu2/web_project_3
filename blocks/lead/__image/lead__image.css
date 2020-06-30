@@ -20,6 +20,7 @@
     .lead__image {
         margin-top: 56px;
         max-width: 100%;
+        min-width: calc(928 / 984 * 100%);
     
     }
 }
