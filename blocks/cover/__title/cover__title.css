@@ -11,7 +11,7 @@ margin-bottom: 0;
 z-index: 2;
 }
 
-@media (min-width : 768px) {
+@media (min-width : 760px) {
     .cover__title {
         max-width: 656px;
         font-size: 72px;
@@ -41,7 +41,7 @@ z-index: 2;
     }
 }
 */
-@media (min-width : 320px) and (max-width : 768px) {
+@media (min-width : 320px) and (max-width : 760px) {
     .cover__title {
         /*
         margin-top: 51px;

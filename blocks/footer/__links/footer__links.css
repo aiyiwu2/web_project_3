@@ -1,6 +1,6 @@
 
 
-@media (min-width : 768px) {
+@media (min-width : 760px) {
 
     .footer__links {
         min-width: 211px;
@@ -12,7 +12,7 @@
 
 }
 
-@media (max-width : 768px) {
+@media (max-width : 760px) {
     .footer__links {
         display: flex;
         flex-direction: column;

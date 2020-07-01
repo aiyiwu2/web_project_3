@@ -21,14 +21,14 @@ background-repeat: no-repeat;
     }
 }
 
-@media (min-width : 768px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1024px) {
     .logo {
         min-width: 190px;
 
     }
 }
 
-@media (min-width : 320px) and (max-width : 768px) {
+@media (min-width : 320px) and (max-width : 760px) {
     .logo {
         min-width: calc(156 / 288 * 100%);
 

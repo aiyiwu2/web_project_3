@@ -25,7 +25,7 @@ justify-content: space-between;
     }
 }
 
-@media (min-width : 768px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1024px) {
     .places {
         margin-top: 88px;
         max-width: 720px;
@@ -33,7 +33,7 @@ justify-content: space-between;
     }
 }
 
-@media (min-width : 320px) and (max-width : 768px) {
+@media (min-width : 320px) and (max-width : 760px) {
     .places {
         margin-top: 64px;
     }

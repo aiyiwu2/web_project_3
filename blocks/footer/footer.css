@@ -30,14 +30,14 @@ justify-content: space-between;
     }
 }
 
-@media (min-width : 768px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1024px) {
     .footer {
         margin-top: 88px;
         min-width: 720px;
     }
 }
 
-@media (min-width : 320px) and (max-width : 768px) {
+@media (min-width : 320px) and (max-width : 760px) {
     .footer {
         margin-top: 64px;
         flex-direction: column;
