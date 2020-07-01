@@ -42,14 +42,14 @@ align-items: center;
     }
 }
 
-@media (min-width : 1024px) {
+@media (min-width : 1020px) {
     .cover {
         margin-top: 92px;
         
     }
 }
 
-@media (min-width : 760px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1020px) {
     .cover {
         margin-top: 88px;
         min-height: 480px;

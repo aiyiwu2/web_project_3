@@ -23,14 +23,14 @@
 }
 
 
-@media (min-width : 1024px) and (max-width : 1280px) {
+@media (min-width : 1020px) and (max-width : 1280px) {
     .header {
     min-width: 984px;
     margin-top: 34px;
 }
 }
 
-@media (min-width : 760px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1020px) {
     .header {
     min-width: calc(720 / 768 * 100%);
     max-width: 984px;

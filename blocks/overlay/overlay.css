@@ -21,7 +21,7 @@ background-color: black;
 
 
 
-@media (min-width : 1024px) and (max-width : 1280px) {
+@media (min-width : 1020px) and (max-width : 1280px) {
     .overlay {
     
         min-width: 100%;
@@ -29,7 +29,7 @@ background-color: black;
 }
 }
 
-@media (min-width : 760px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1020px) {
     .overlay {
     
         min-width: 100%;

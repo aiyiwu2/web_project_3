@@ -20,7 +20,7 @@
     }
 }
 
-@media (min-width : 1024px) and (max-width : 1280px) {
+@media (min-width : 1020px) and (max-width : 1280px) {
     .lead__title {
         
         max-width: 720px;
@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width : 760px) and (max-width : 1024px) {
+@media (min-width : 760px) and (max-width : 1020px) {
     .lead__title {
         
         max-width: 720px;
