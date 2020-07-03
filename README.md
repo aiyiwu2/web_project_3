@@ -1,4 +1,4 @@
-Link to website: https://aiyiwu2.github.io/web_project_3/
+[Link to website](https://aiyiwu2.github.io/web_project_3/)
 
 # Project 3: From Portland to Portland
 
