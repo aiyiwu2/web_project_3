@@ -8,3 +8,9 @@
     font-family: 'Inter'; 
     font-weight: bold;
 }
+
+@font-face {
+    src: url('../Inter Desktop/Inter-Black.otf');
+    font-family: 'Inter';
+    font-weight: 900;
+}

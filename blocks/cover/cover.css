@@ -26,15 +26,14 @@ position: relative;
     }
 }
 
-@media (min-width : 1024px) and (max-width : 1275px) {
+@media (min-width : 1020px) and (max-width : 1275px) {
     .cover {
         min-height: 640px;
         max-width: 100%;
-        
     }
 }
 
-@media (max-width : 1280px) {
+@media (max-width : 1275px) {
     .cover {
         min-width: 100%;
         
