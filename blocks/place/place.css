@@ -4,36 +4,49 @@
 @import url(./__website/place__website.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__url/place__url.css);
+@import url(./__paragraphs/place__paragraphs.css);
 @import url(./__paragraph/place__paragraph.css);
 
-
-
-
-
-
-@import url(./__paragraph/_type/place__paragraph_type_maine.css);
-@import url(./__paragraph/_type/place__paragraph_type_new-hampshire.css);
-@import url(./__paragraph/_type/place__paragraph_type_new-york.css);
-@import url(./__paragraph/_type/place__paragraph_type_pennsylvania.css);
-@import url(./__paragraph/_type/place__paragraph_type_ohio.css);
-
-
-@import url(./__url-heading/_type/place__url-heading_type_new-hampshire.css);
+@import url(./__website/_type/place__website_type_new-hampshire.css);
 
 .place {
     
     min-width: 100%;
     margin-bottom: 80px;
-    display: flex;
-    align-content: flex-start;
+    display: grid;
 }
 
 .place:last-of-type {
     margin-bottom: 0;
 }
 
+@media (min-width : 1275px) {
+    .place {
+        grid-template-columns: 460px 484px;
+    grid-template-rows: 76px auto;
+    grid-gap: 40px 48px;
+    }
+}
+
+@media (min-width : 1020px) and (max-width : 1275px) {
+    .place {
+        grid-template-columns: 440px 456px;
+    grid-template-rows: 76px auto;
+    grid-gap: 32px 48px;
+    }
+}
+
+@media (min-width : 760px) and (max-width : 1020px) {
+    .place {
+        grid-template-columns: 340px 352px;
+    grid-template-rows: 46px auto;
+    grid-gap: 28px 48px;
+    }
+}
+
 @media (min-width : 320px) and (max-width : 760px) {
     .place {
+        display: flex;
         flex-direction: column;
     }
 }

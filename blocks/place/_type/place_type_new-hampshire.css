@@ -1,5 +1,13 @@
 .place_type_new-hampshire {
-    /*
-    height: 661px;
-    margin-bottom: 64px;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: 152px auto;
+    grid-gap: 40px 48px;
+}
+
+@media (min-width : 760px) and (max-width : 1020px) {
+    .place_type_new-hampshire {
+        grid-template-columns: 340px 352px;
+    grid-template-rows: 46px auto;
+    grid-gap: 28px 48px;
+    }
 }

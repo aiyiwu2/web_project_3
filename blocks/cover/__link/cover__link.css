@@ -1,0 +1,41 @@
+.cover__link {
+    
+position: relative;
+  min-width: 100%;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+  text-decoration: none;
+  color: white;
+}
+
+.cover__link:after {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  content: " ";
+}
+
+.cover__link:hover:after {
+  opacity: 0.8;
+  transition: opacity 1s ease-in-out;
+}
+
+@media (min-width : 760px) and (max-width : 1020px) {
+    .cover__link {
+        max-height: 100%;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 760px) {
+    .cover__link {
+        min-height: 100%;
+    }
+}

@@ -6,23 +6,7 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
-@import url(../blocks/video/video.css);
-@import url(../blocks/content-title/content-title.css);
-@import url(../blocks/content-subtitle/content-subtitle.css);
-@import url(../blocks/comments/comments.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/overlay/overlay.css);
 @import url(../blocks/footer/footer.css);
 
-@import url(../blocks/place/_type/place_type_maine.css);
 @import url(../blocks/place/_type/place_type_new-hampshire.css);
-@import url(../blocks/place/_type/place_type_new-york.css);
-@import url(../blocks/place/_type/place_type_pennsylvania.css);
-@import url(../blocks/place/_type/place_type_ohio.css);
-
-@import url(../blocks/content-subtitle/_type/content-subtitle_type_video.css);
-@import url(../blocks/content-subtitle/_type/content-subtitle_type_comments.css);
-
-@import url(../blocks/overlay/_type/overlay_type_cover.css);
-@import url(../blocks/overlay/_type/overlay_type_video.css);
-

@@ -1,12 +1,11 @@
 .cover__subtitle {
     
 text-align: center;
-/*
+
 margin-left: auto;
 margin-right: auto;
-*/
 z-index: 2;
-
+color: #ffffff;
 }
 
 @media (min-width : 760px) {
@@ -15,10 +14,7 @@ z-index: 2;
 
 font-size: 18px;
 line-height: 22px;
-/*
-margin-top: 32px;
-        
-*/
+
 
     }
 }
@@ -29,29 +25,5 @@ margin-top: 32px;
         
         font-size: 14px;
         line-height: 16px;
-    }
-}
-/*
-@media (min-width : 1280px) {
-    .cover__subtitle {
-        margin-bottom: 283px;
-    }
-}
-
-@media (min-width : 1024px) and (max-width : 1280px) {
-    .cover__subtitle {
-        margin-bottom: 233px;
-    }
-}
-
-@media (min-width : 768px) and (max-width : 1024px) {
-    .cover__subtitle {
-        margin-bottom: 153px;
-    }
-}
-
-@media (min-width : 320px) and (max-width : 768px) {
-    .cover__subtitle {
-        margin-bottom: 50px;
     }
 }
