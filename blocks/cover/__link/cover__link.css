@@ -13,7 +13,7 @@ position: relative;
   color: white;
 }
 
-.cover__link:after {
+.cover__link::after {
   
     background-color: #2A2C2F;  
     min-width: 100%;
@@ -26,7 +26,7 @@ position: relative;
   content: " ";
 }
 
-.cover__link:hover:after {
+.cover__link:hover::after {
   opacity: 0.8;
   transition: opacity 1s ease-in-out;
 }
