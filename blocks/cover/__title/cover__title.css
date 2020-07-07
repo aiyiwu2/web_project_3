@@ -11,7 +11,7 @@ margin-right: auto;
 
 
 
-@media (min-width : 760px) {
+@media (min-width : 768px) {
     .cover__title {
         max-width: 656px;
         font-size: 72px;
@@ -21,7 +21,7 @@ margin-right: auto;
     }
 }
 
-@media (min-width : 320px) and (max-width : 760px) {
+@media (min-width : 320px) and (max-width : 767px) {
     .cover__title {
         
         min-width: calc(288 / 320 * 100%);

@@ -4,7 +4,7 @@
     grid-gap: 40px 48px;
 }
 
-@media (min-width : 760px) and (max-width : 1020px) {
+@media (min-width : 768px) and (max-width : 1023px) {
     .place_type_new-hampshire {
         grid-template-columns: 340px 352px;
     grid-template-rows: 46px auto;

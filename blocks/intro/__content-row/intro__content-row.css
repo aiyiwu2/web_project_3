@@ -6,7 +6,7 @@ line-height: 142%;
 
 }
 
-@media (max-width : 760px) {
+@media (max-width : 767px) {
     .intro__content-row {
         line-height: 125%;
     }

@@ -5,7 +5,6 @@
 .cover {
     
 position: relative;
-  max-width: 1184px;
   margin-bottom: 0;
   background-image: url(../../images/cover-route-66.jpg);
   background-position: center center;
@@ -16,7 +15,7 @@ position: relative;
 }
 
 
-@media (min-width : 1275px) {
+@media (min-width : 1280px) {
     .cover {
         margin-top: 92px;
     margin-left: auto;
@@ -26,14 +25,14 @@ position: relative;
     }
 }
 
-@media (min-width : 1020px) and (max-width : 1275px) {
+@media (min-width : 1024px) and (max-width : 1279px) {
     .cover {
         min-height: 640px;
         max-width: 100%;
     }
 }
 
-@media (max-width : 1275px) {
+@media (max-width : 1279px) {
     .cover {
         min-width: 100%;
         
@@ -42,22 +41,22 @@ position: relative;
     }
 }
 
-@media (min-width : 1020px) {
+@media (min-width : 1024px) {
     .cover {
         margin-top: 92px;
         
     }
 }
 
-@media (min-width : 760px) and (max-width : 1020px) {
+@media (min-width : 768px) and (max-width : 1023px) {
     .cover {
         margin-top: 88px;
         min-height: 480px;
-        max-width: 768px;
+        max-width: 100%;
     }
 }
 
-@media (min-width : 320px) and (max-width : 760px) {
+@media (min-width : 320px) and (max-width : 767px) {
     .cover {
         margin-top: 64px;
         max-height: 200px;

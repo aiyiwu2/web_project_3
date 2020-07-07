@@ -31,26 +31,26 @@ position: relative;
   transition: opacity 1s ease-in-out;
 }
 
-@media (min-width : 1275px) {
+@media (min-width : 1280px) {
   .cover__link {
     min-width: 100%;
   min-height: 740px;
   }
 }
 
-@media (min-width : 1024px) and (max-width : 1275px) {
+@media (min-width : 1024px) and (max-width : 1279px) {
   .cover__link {
       min-height: 640px;
   }
 }
 
-@media (min-width : 760px) and (max-width : 1020px) {
+@media (min-width : 768px) and (max-width : 1023px) {
     .cover__link {
         min-height: 480px;
     }
 }
 
-@media (min-width : 320px) and (max-width : 760px) {
+@media (min-width : 320px) and (max-width : 767px) {
     .cover__link {
         min-height: 100%;
     }
